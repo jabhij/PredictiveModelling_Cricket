@@ -6,7 +6,7 @@ fields = ['Result','Toss','Bat']
 
 # Read the CSV file
 df = pd.read_csv(file_name,skipinitialspace=True,usecols=fields)
-df.to_csv('data_england_test_filter.csv',index=False)
+df.to_csv('India_in_Tests_Filter.csv',index=False)
 
 # Convert features and labels into digits
 df_replace = df.replace(['lost','draw','won','1st','2nd'],[-1,0,1,-1,1])
