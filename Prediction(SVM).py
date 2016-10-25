@@ -39,9 +39,3 @@ predicted = model.predict(features_test)
 
 acc = accuracy_score(labels_test,predicted)
 print(acc)
-
-#precision, recall, fscore, support = score(labels_test, predicted)
-# print('precision: {}'.format(precision))
-# print('recall: {}'.format(recall))
-# print('fscore: {}'.format(fscore))
-# print('support: {}'.format(support))
