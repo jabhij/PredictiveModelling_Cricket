@@ -14,9 +14,16 @@ dataset_length = len(df_replace)
 
 # 65% of training data
 ratio = 0.65
-train_data_df = df_replace[:round(dataset_length*ratio)] # first 65% of data
-test_data_df = df_replace[-(1-round(dataset_length*ratio)):] # rest for testing
+
+"""
+First 65% Data
+For Training
+"""
+train_data_df = df_replace[:round(dataset_length*ratio)] 
+
+# 35% Data - For Testing
+test_data_df = df_replace[-(1-round(dataset_length*ratio)):] 
 
 # Create Respected CSV
-train_data_df.to_csv('train.csv',index=False)
-test_data_df.to_csv('test.csv',index=False)
+train_data_df.to_csv('Trained_Data.csv',index=False)
+test_data_df.to_csv('Test.csv',index=False)
