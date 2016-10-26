@@ -17,11 +17,11 @@ from sklearn.metrics import precision_recall_fscore_support as score
 
 
 # Assigning Features
-features = np.genfromtxt('train.csv',delimiter=',',usecols=(1,2),dtype=int)
-labels = np.genfromtxt('train.csv',delimiter=',',usecols=(0),dtype=int)
+features = np.genfromtxt('Trained_Data.csv',delimiter=',',usecols=(1,2),dtype=int)
+labels = np.genfromtxt('Trained_Data.csv',delimiter=',',usecols=(0),dtype=int)
 
-features_test = np.genfromtxt('test.csv',delimiter=',',usecols=(1,2),dtype=int)
-labels_test = np.genfromtxt('test.csv',delimiter=',',usecols=(0),dtype=int)
+features_test = np.genfromtxt('Test.csv',delimiter=',',usecols=(1,2),dtype=int)
+labels_test = np.genfromtxt('Test.csv',delimiter=',',usecols=(0),dtype=int)
 
 # Create a Gaussian Classifier
 model = GaussianNB()
