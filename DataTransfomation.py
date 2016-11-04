@@ -16,8 +16,7 @@ dataset_length = len(df_replace)
 ratio = 0.65
 
 """
-First 65% Data
-For Training
+First 65% Data -- For Training
 """
 train_data_df = df_replace[:int(dataset_length*ratio)] 
 
