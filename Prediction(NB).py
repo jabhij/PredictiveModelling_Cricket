@@ -7,6 +7,7 @@
         Bat(First, Second) = [-1,1]
 """
 
+
 # Import Library - Gaussian Naive Bayes model
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
@@ -14,7 +15,6 @@ from sklearn.metrics import accuracy_score
 # Import Numpy
 import numpy as np
 from sklearn.metrics import precision_recall_fscore_support as score
-
 
 # Assigning Features
 features = np.genfromtxt('Trained_Data.csv',delimiter=',',usecols=(1,2),dtype=int)
@@ -33,5 +33,6 @@ model.fit(features, labels)
 predicted = model.predict(features_test)
 # print(predicted)
 
-acc = accuracy_score(labels_test,predicted)
-print(acc)
+# Prediction Accuracy 
+accuracy = accuracy_score(labels_test,predicted)
+print(accuracy)
