@@ -3,7 +3,6 @@ Using past Sport (Cricket) data to predict next win for Team India, in any forma
 
 
 ### Catch me
-[![Generic badge](https://img.shields.io/badge/Twitter-@jabhij-<COLOR>.svg)]([https://twitter.com/jabhij](https://twitter.com/jabhij))
 For any query, ping me on 
 - Twitter: [@jabhij] (https://twitter.com/jabhij)
 - Web: [LetUsTweak] (http://letustweak.com)
