@@ -29,7 +29,7 @@ model = GaussianNB()
 # Train the model using the training sets
 model.fit(features, labels)
 
-# Prediction
+# Prediction rate
 predicted = model.predict(features_test)
 # print(predicted)
 
