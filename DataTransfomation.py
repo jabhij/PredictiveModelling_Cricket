@@ -26,3 +26,20 @@ test_data_df = df_replace[-(1-int(dataset_length*ratio)):]
 # Create Respected CSV
 train_data_df.to_csv('Trained_Data.csv',index=False)
 test_data_df.to_csv('Test.csv',index=False)
+
+***
+# 75% of training data
+ratio = 0.75
+
+"""
+First 75% Data -- For Training
+"""
+train_data_df = df_replace[:int(dataset_length*ratio)] 
+
+# 35% Data - For Testing
+test_data_df = df_replace[-(1-int(dataset_length*ratio)):] 
+
+# Create Respected CSV
+train_data_df.to_csv('Trained_Data.csv',index=False)
+test_data_df.to_csv('Test.csv',index=False)
+***
