@@ -31,3 +31,4 @@ for i in range(2,len(recs)):
         file.write(single[0].text + ','+single[1].text+ ','+single[2].text+ ','+single[3].text+ ','+ single[4].text+ ','+single[6].text+ ','+ single[7].text+'\n')
 
 file.close()
+
