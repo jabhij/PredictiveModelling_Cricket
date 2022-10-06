@@ -10,7 +10,7 @@
 # Import SVC
 from sklearn.svm import SVC
 
-# Import Numpy
+# Import Numpy 
 import numpy as np
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_recall_fscore_support as score
@@ -35,7 +35,7 @@ model.fit(features, labels)
 
 # Prediction
 predicted = model.predict(features_test)
-# print(predicted)
+print(predicted)
 
 acc = accuracy_score(labels_test,predicted)
 print(acc)
