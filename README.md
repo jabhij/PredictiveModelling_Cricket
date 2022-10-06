@@ -1,5 +1,5 @@
 ## Predictive Modelling
-Using past Sport (Cricket) data to predict next win for Team India, in any format of the cricket.
+Using [Cricket](https://en.wikipedia.org/wiki/Cricket) data to predict next win for Team India, in any format of the cricket.
 
 
 ### Catch me
