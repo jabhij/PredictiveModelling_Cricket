@@ -4,7 +4,8 @@ Using past Sport (Cricket) data to predict next win for Team India, in any forma
 
 ### Catch me
 For any query, ping me on 
-- Twitter: [@jabhij] (https://twitter.com/jabhij)
-- Web: [LetUsTweak] (http://letustweak.com)
+- LinkedIn: [@jabhij](https://www.linkedin.com/in/jabhij/)
+- Twitter: [@jabhij](https://twitter.com/jabhij)
+- Web: [LetUsTweak](http://letustweak.com)
 
 Hope, it helps!! ヅ
