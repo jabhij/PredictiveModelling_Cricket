@@ -35,7 +35,7 @@ model.fit(features, labels)
 
 # Prediction
 predicted = model.predict(features_test)
-print(predicted)
+#print(predicted)
 
 acc = accuracy_score(labels_test,predicted)
 print(acc)
